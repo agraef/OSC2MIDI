@@ -716,7 +716,6 @@ Appendix
 ========
 
 The syntax of rules is described by the following grammar in extended BNF.
-The meaning of the various elements of a rule is discussed in the text.
 
     rule ::= [ osc-pattern ] ':' midi-pattern
 
