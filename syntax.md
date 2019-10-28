@@ -281,9 +281,7 @@ The supported MIDI messages are as follows:
   denotes the MIDI channel) on the given MIDI channel `chan` (0-15 range), for
   the given note number `note` (0-127) and velocity `vel` (0-127).
 
-* `noteon( chan, note, vel )`: A note on message (`0x9n` status). This will
-  also match any note off message (`0x8n` status), interpreting it as a note
-  on message with zero velocity, as mandated by the MIDI standard.
+* `noteon( chan, note, vel )`: A note on message (`0x9n` status).
 
 * `polyaftertouch( chan, note, val )`: A polyphonic aftertouch message (`0xAn`
   status). The second argument denotes the note number (0-127), the third
